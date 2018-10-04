@@ -42,6 +42,20 @@ class LinkedList:
 			temp.next = new_node
 			new_node.next = current_next
 
+	def delete_last(self):
+		temp = self.head
+
+		if temp is None:
+			print("Empty list")
+			return
+
+		prev = None
+		while temp.next is not None:
+			prev = temp
+			temp = temp.next
+
+		prev.next = None
+
 	def print_list(self):
 		temp = self.head
 

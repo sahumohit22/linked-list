@@ -27,3 +27,11 @@ print("========================")
 linked_list.add_at(100, 7)
 linked_list.print_list()
 print("========================")
+
+linked_list.delete_last()
+linked_list.print_list()
+print("========================")
+
+linked_list.delete_last()
+linked_list.print_list()
+print("========================")
